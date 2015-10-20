@@ -6,16 +6,16 @@
 $(document).ready(function(){
     
     $(".b1").click(function(){  
-        $(".flower1").fadeIn("slow");
-        $(".flower2").fadeIn("slow");
-        $(".flower3").fadeIn("slow");
-        $(".flower4").fadeIn("slow");
+        $(".flower1").fadeIn(3000);
+        $(".flower2").fadeIn(3000);
+        $(".flower3").fadeIn(3000);
+        $(".flower4").fadeIn(3000);
         
     
-        $(".flower1").fadeOut("slow");
-        $(".flower2").fadeOut("slow");
-        $(".flower3").fadeOut("slow");
-        $(".flower4").fadeOut("slow");
+        $(".flower1").fadeOut(3000);
+        $(".flower2").fadeOut(3000);
+        $(".flower3").fadeOut(3000);
+        $(".flower4").fadeOut(3000);
         
         $(".flower1").rotate({
               angle:0, 
